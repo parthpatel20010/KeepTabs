@@ -1,0 +1,39 @@
+<div style="height:300px;width:500px;">
+<div style="background-color:lightblue;height:100vh;">
+<div class="jumbotron jumbotron-fluid" style="background-color:orange">
+  <div class="container">
+    <h1 class="display-4">KeepTabs</h1>
+    <p class="lead">Automatically removes the tabs you forgot about!</p>
+  </div>
+</div>
+<p style="padding:5px;text-align: center">A tab will be deleted if it is unused for some period of time. 
+Enter that time below in minutes(1 hour = 60 mins, 1 day = 1440 mins, etc).</p>
+<strong><p style="text-align: center" id="minutes"></p></strong>
+<form style="text-align: center">
+
+<input id="number" type="number" required>
+<button name="enterButton" id="button" type="button" class="btn btn-success">Enter</button><br>
+<input  id="notify" name="notify" type="checkbox" >
+<labelfor="notify">Ask me before deleting tabs</label>
+</form>
+<p>
+  <a class="btn btn-primary" data-toggle="collapse" data-target="#collapseExample" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    Deleted Tabs Log
+  </a>
+</p>
+<div class="collapse" id="collapseExample">
+	<p id="none">No Tabs Deleted!</p>
+</div>
+<script charset="utf-8" src="popup.js"></script>
+
+</div>
+</div>
+
+
+<!-- CSS only -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script charset="utf-8" src="jquery-3.5.1.min.js"></script>
+<script charset="utf-8" src="bootstrap.min.js" ></script>
+
+
